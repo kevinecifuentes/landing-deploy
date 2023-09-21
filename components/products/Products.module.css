@@ -1,0 +1,74 @@
+.sectionContainer {
+  display: grid;
+  justify-items: center;
+  padding-bottom: 80px;
+  gap: 30px;
+}
+
+.cardContainer {
+  width: 220px;
+  text-align: center;
+  background-color: #1b1b1b;
+  border-radius: 0 0 8px 8px;
+}
+
+.titleProducts h3 {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 35px;
+}
+
+.titleProducts h2 {
+  text-align: center;
+  color: white;
+  padding-bottom: 60px;
+}
+
+.imageContainer {
+  width: 220px;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+.bottomSection {
+  padding: 30px;
+}
+
+.bottomSection p {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #afafaf;
+}
+
+.bottomSection button {
+  background-color: var(--primary-color);
+  padding: 1px 12px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+@media (min-width: 600px) {
+  .sectionContainer {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .sectionContainer {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+    padding: 0 20px;
+    max-width: 1024px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sectionContainer {
+    padding: 0;
+  }
+}

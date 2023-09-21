@@ -1,0 +1,150 @@
+.sectionContainer {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.girlImg {
+  height: 250px;
+  width: auto;
+  border-radius: 12px;
+  display: block;
+  margin: auto;
+}
+
+.leftSection {
+  padding: 40px 0;
+}
+
+.rightSection {
+  padding: 0 44px;
+}
+
+.titleContainer {
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  background: #ffffff;
+  background: linear-gradient(to bottom, #ffffff 0%, #d9d9d9 50%, #b7b6b5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.spanTitle {
+  color: #f51212;
+}
+
+.listCulture {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 40px;
+}
+
+.listContainer {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .listCulture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 768px) {
+  .sectionContainer {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .girlImg {
+    height: 330px;
+  }
+
+  .rightSection {
+    padding: 0 40px;
+  }
+
+  .titleContainer {
+    text-align: start;
+  }
+
+  .description {
+    font-size: 1.3rem;
+    line-height: 30px;
+  }
+
+  .listCulture {
+    justify-content: start;
+    align-items: center;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sectionContainer {
+    padding: 7rem 0;
+    gap: 44px;
+  }
+
+  .girlImg {
+    height: 440px;
+  }
+
+  .title {
+    font-size: 21px;
+    font-weight: bolder;
+  }
+
+  .description {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .listCulture {
+    font-size: 1rem;
+    gap: 35px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .sectionContainer {
+    gap: 40px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .listCulture {
+    font-size: 18px;
+  }
+
+  .girlImg {
+    height: 37rem;
+  }
+}

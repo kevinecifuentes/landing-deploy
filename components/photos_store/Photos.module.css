@@ -1,0 +1,20 @@
+.img1 {
+  width: 100%;
+  height: auto;
+}
+.img2 {
+  width: 100%;
+  height: auto;
+}
+
+.img3 {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .topSection {
+    display: flex;
+    justify-content: center;
+  }
+}

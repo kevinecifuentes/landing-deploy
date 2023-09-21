@@ -1,0 +1,96 @@
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 200px;
+}
+
+.card {
+  height: 200px;
+  width: 280px;
+  background-color: #1b1b1b;
+  border-radius: 12px;
+  display: grid;
+  place-content: center;
+  padding: 0 30px;
+  gap: 20px;
+}
+
+.alternativeCard {
+  height: 200px;
+  width: 280px;
+  background: linear-gradient(
+    to right top,
+    #911c1c,
+    #ad1414,
+    #e20607,
+    #d30909,
+    #911c1c
+  );
+  border-radius: 12px;
+  display: grid;
+  place-content: center;
+  padding: 0 30px;
+  gap: 20px;
+}
+
+.cardTopContent {
+  display: flex;
+  gap: 12px;
+}
+
+.icon {
+  font-size: 30px;
+  color: #f51212;
+}
+
+.alternativeIcon {
+  color: #ffff;
+  font-size: 30px;
+}
+
+.titleCard {
+  margin: auto 0;
+  font-size: 15px;
+}
+
+@media (min-width: 1024px) {
+  .advantages {
+    gap: 50px;
+  }
+
+  .card {
+    height: 210px;
+    width: 380px;
+    padding: 0 30px;
+    gap: 20px;
+  }
+
+  .alternativeCard {
+    height: 210px;
+    width: 360px;
+    padding: 15px 30px;
+    gap: 20px;
+  }
+
+  .icon {
+    font-size: 40px;
+  }
+
+  .alternativeIcon {
+    font-size: 40px;
+  }
+
+  .titleCard {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 1.1rem;
+  }
+}
+
+/* Menor o igual a la medida (max-width) */
+
+/* es mayor o igual a la medida (min-widt) */

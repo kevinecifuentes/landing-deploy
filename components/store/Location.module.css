@@ -1,0 +1,19 @@
+@media (min-width: 500px) {
+  .iFrame {
+    width: 430px;
+    height: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .iFrame {
+    width: 390px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .iFrame {
+    width: 420px;
+    height: 300px;
+  }
+}

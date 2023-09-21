@@ -1,0 +1,145 @@
+.footer h3 {
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.footer {
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+.leftSection span {
+  color: var(--primary-color);
+}
+
+.iconsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.backgroundIcon {
+  position: relative;
+  padding: 20px;
+  background: linear-gradient(
+    to right top,
+    #911c1c,
+    #ad1414,
+    #e20607,
+    #d30909,
+    #911c1c
+  );
+  border-radius: 50%;
+}
+
+.iconsContainer i {
+  font-size: 24px;
+  margin: auto;
+  position: absolute;
+  right: 20%;
+  top: 20%;
+}
+
+.navegationArticle {
+  margin-top: 40px;
+}
+
+.leftSection ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 10px;
+}
+
+.shopButton {
+  background-color: var(--primary-color);
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 12px;
+  border: none;
+  margin-top: 10px;
+}
+
+.rightSection {
+  margin-top: 40px;
+}
+
+.rightSection span {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.rightSection i {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.authorRights {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .leftSection {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .leftSection p {
+    width: 200px;
+  }
+
+  .iconsContainer {
+    justify-content: start;
+  }
+
+  .navegationArticle {
+    margin-top: 0;
+  }
+
+  .rightSection {
+    display: grid;
+    place-content: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sectionsContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .leftSection {
+    gap: 140px;
+  }
+
+  .redVapor {
+    font-size: 28px;
+  }
+
+  .navegationArticle h3 {
+    font-size: 20px;
+  }
+
+  .navegationArticle ul {
+    gap: 17px;
+  }
+
+  .rightSection {
+    margin-top: 0;
+  }
+
+  .rightSection h3 {
+    font-size: 20px;
+  }
+
+  .authorRights {
+    margin-top: 70px;
+  }
+}

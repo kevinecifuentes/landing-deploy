@@ -1,0 +1,51 @@
+.container {
+  background-color: #1b1b1b;
+  padding: 40px 0;
+  margin-top: 150px;
+}
+.title {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.clickContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.title2 {
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  gap: 5px;
+}
+
+.title2 i {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .whatsappContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .title2 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
