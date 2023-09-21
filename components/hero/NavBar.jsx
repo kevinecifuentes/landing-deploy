@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import styles from './NavBar.module.css'
+import Link from 'next/link'
 
 const NavBar = () => {
 
@@ -25,10 +26,10 @@ const NavBar = () => {
 
       <div className={`${styles.navMenu} ${menu ? styles.showMenu : null} ${styles.mobileNav}`}>
         <ul>
-          <li><a onClick={showMenu} href="#">INICIO</a></li>
-          <li><a onClick={showMenu} href="#">ACERCA DE</a></li>
-          <li><a onClick={showMenu} href="#">PRODUCTOS</a></li>
-          <li><a onClick={showMenu} href="#">CONTACTO</a></li>
+          <li><Link onClick={showMenu} href="#">INICIO</Link></li>
+          <li><Link onClick={showMenu} href="#">ACERCA DE</Link></li>
+          <li><Link onClick={showMenu} href="#">PRODUCTOS</Link></li>
+          <li><Link onClick={showMenu} href="#">CONTACTO</Link></li>
         </ul>
       </div>
 
@@ -66,7 +67,7 @@ const NavBar = () => {
             <li>ACERCA DE </li>
             <li>PRODUCTOS</li>
             <li>CONTACTO</li>
-            <a href='/' className={styles.shopButton}><i className={`${styles.shopIcon} bx bx-store`}></i>TIENDA</a>
+            <Link href='/' className={styles.shopButton}><i className={`${styles.shopIcon} bx bx-store`}></i>TIENDA</Link>
           </ul>
         </div>
       </nav>

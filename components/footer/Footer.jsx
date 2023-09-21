@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from './Footer.module.css'
 
 const Footer = () => {
@@ -17,19 +18,19 @@ const Footer = () => {
             </p>
             <div className={styles.iconsContainer}>
               <div className={styles.backgroundIcon}>
-                <a href="/">
+                <Link href="/">
                   <i className="bx bxl-facebook-circle"></i>
-                </a>
+                </Link>
               </div>
               <div className={styles.backgroundIcon}>
-                <a href="/">
+                <Link href="/">
                   <i className="bx bxl-instagram-alt"></i>
-                </a>
+                </Link>
               </div>
               <div className={styles.backgroundIcon}>
-                <a href="/">
+                <Link href="/">
                   <i className="bx bxl-twitter"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </article>
@@ -38,20 +39,20 @@ const Footer = () => {
             <h3>NAVEGACIÓN</h3>
             <ul>
               <li>
-                <a href="/">HOME</a>
+                <Link href="/">HOME</Link>
               </li>
               <li>
-                <a href="/">ACERCA DE</a>
+                <Link href="/">ACERCA DE</Link>
               </li>
               <li>
-                <a href="/">PRODUCTOS</a>
+                <Link href="/">PRODUCTOS</Link>
               </li>
               <li>
-                <a href="/">CONTACTO</a>
+                <Link href="/">CONTACTO</Link>
               </li>
             </ul>
             <button className={styles.shopButton}><i className='bx bx-store'>
-            </i><a href="">TIENDA</a></button>
+            </i><Link href="">TIENDA</Link></button>
           </article>
         </section>
 
